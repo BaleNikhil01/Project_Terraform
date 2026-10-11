@@ -12,7 +12,7 @@ The goal of this project is to understand how AWS networking resources connect a
 
 ![AWS Terraform architecture] 
 
-<img width="450" height="350" alt="AWS Terraform VPC Architecture Diagram" src="https://github.com/user-attachments/assets/ee740637-f2c4-4b3a-823a-b728e5b6a51b" />
+<img width="600" height="350" alt="AWS Terraform VPC Architecture Diagram" src="https://github.com/user-attachments/assets/ee740637-f2c4-4b3a-823a-b728e5b6a51b" />
 
 ## AWS Resources Created
 
@@ -29,21 +29,20 @@ The goal of this project is to understand how AWS networking resources connect a
 
 The page shows the custom HTML content served by Apache on the first EC2 instance.
 
-<img width="414" height="300" alt="Screenshot From 2026-10-11 15-32-14" src="https://github.com/user-attachments/assets/b8ed6c1b-3ad5-4d8c-8a95-4b45dba5aa35" />
+<img width="554" height="300" alt="Screenshot From 2026-10-11 15-32-14" src="https://github.com/user-attachments/assets/b8ed6c1b-3ad5-4d8c-8a95-4b45dba5aa35" />
 
 ![Website running on EC2] 
 
 ### 2. EC2 instance details
-
-<img width=454" height="359" alt="Screenshot From 2026-10-11 15-32-52" src="https://github.com/user-attachments/assets/aa949eb4-b03d-4451-ba37-a8e8a727b441" />
-
 AWS Console evidence of the running instance, including its public and private IP addresses, VPC, and subnet.
+
+<img width="604" height="509" alt="Screenshot From 2026-10-11 15-32-52" src="https://github.com/user-attachments/assets/164a4547-1ac3-46db-b61e-03a67bdcbde7" />
 
 ![EC2 instance details] 
 
 ### 3. VPC resource map
 
-<img width="500" height="368" alt="Screenshot From 2026-10-11 15-36-38" src="https://github.com/user-attachments/assets/065f1a1d-3e8e-45b8-81c7-4f28908627c2" />
+<img width="600" height="400" alt="Screenshot From 2026-10-11 15-36-38" src="https://github.com/user-attachments/assets/065f1a1d-3e8e-45b8-81c7-4f28908627c2" />
 
 The resource map shows the VPC, both subnets, route tables, and Internet Gateway.
 
@@ -51,7 +50,7 @@ The resource map shows the VPC, both subnets, route tables, and Internet Gateway
 
 ## S3 remote state
 
-<img width="503" height="368" alt="Screenshot From 2026-10-11 15-44-39" src="https://github.com/user-attachments/assets/2d603248-3d8c-48ec-8e05-410747d65bb2" />
+<img width="603" height="400" alt="Screenshot From 2026-10-11 15-44-39" src="https://github.com/user-attachments/assets/2d603248-3d8c-48ec-8e05-410747d65bb2" />
 
 Terraform uses an S3 backend configured with the state key `demo/terraform.tfstate` in `ap-south-1`. The `use_lockfile = true` setting enables S3-native state locking using a `.tflock` object.
 
