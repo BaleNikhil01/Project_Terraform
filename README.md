@@ -31,12 +31,12 @@ The page shows the custom HTML content served by Apache on the first EC2 instanc
 
 <img width="604" height="300" alt="Screenshot From 2026-10-11 15-32-14" src="https://github.com/user-attachments/assets/b8ed6c1b-3ad5-4d8c-8a95-4b45dba5aa35" />
 
-![Website running on EC2] 
+![Website running on browser] 
 
 ### 2. EC2 instance details
 AWS Console evidence of the running instance, including its public and private IP addresses, VPC, and subnet.
 
-<img width="804" height="509" alt="Screenshot From 2026-10-11 15-32-52" src="https://github.com/user-attachments/assets/164a4547-1ac3-46db-b61e-03a67bdcbde7" />
+<img width="904" height="509" alt="Screenshot From 2026-10-11 15-32-52" src="https://github.com/user-attachments/assets/164a4547-1ac3-46db-b61e-03a67bdcbde7" />
 
 ![EC2 instance details] 
 
