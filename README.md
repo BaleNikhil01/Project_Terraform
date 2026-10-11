@@ -36,13 +36,13 @@ The page shows the custom HTML content served by Apache on the first EC2 instanc
 ### 2. EC2 instance details
 AWS Console evidence of the running instance, including its public and private IP addresses, VPC, and subnet.
 
-<img width="904" height="509" alt="Screenshot From 2026-10-11 15-32-52" src="https://github.com/user-attachments/assets/164a4547-1ac3-46db-b61e-03a67bdcbde7" />
+<img width="1004" height="509" alt="Screenshot From 2026-10-11 15-32-52" src="https://github.com/user-attachments/assets/164a4547-1ac3-46db-b61e-03a67bdcbde7" />
 
 ![EC2 instance details] 
 
 ### 3. VPC resource map
 
-<img width="870" height="420" alt="Screenshot From 2026-10-11 15-36-38" src="https://github.com/user-attachments/assets/065f1a1d-3e8e-45b8-81c7-4f28908627c2" />
+<img width="1000" height="420" alt="Screenshot From 2026-10-11 15-36-38" src="https://github.com/user-attachments/assets/065f1a1d-3e8e-45b8-81c7-4f28908627c2" />
 
 The resource map shows the VPC, both subnets, route tables, and Internet Gateway.
 
@@ -50,7 +50,7 @@ The resource map shows the VPC, both subnets, route tables, and Internet Gateway
 
 ## S3 remote state
 
-<img width="903" height="420" alt="Screenshot From 2026-10-11 15-44-39" src="https://github.com/user-attachments/assets/2d603248-3d8c-48ec-8e05-410747d65bb2" />
+<img width="1003" height="420" alt="Screenshot From 2026-10-11 15-44-39" src="https://github.com/user-attachments/assets/2d603248-3d8c-48ec-8e05-410747d65bb2" />
 
 Terraform uses an S3 backend configured with the state key `demo/terraform.tfstate` in `ap-south-1`. The `use_lockfile = true` setting enables S3-native state locking using a `.tflock` object.
 
